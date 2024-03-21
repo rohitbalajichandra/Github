@@ -1,0 +1,266 @@
+Covid-19 
+
+HTML Sources Code
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="covid-bg-container">
+        <div class="covid-card-container d-flex flex-row justify-content-center">
+            <div>
+                <P class="covid-card-heading">All you need to know about COVID-19</P>
+                <button class="learn-covid-card-button">Know More</button>
+            </div>
+            <div>
+                <img src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/medicalcare-img.png" 
+                class="covid-doc-img-card">
+            </div>
+        </div>
+        
+        <div class="covid-middle-card-container d-flex flex-row justify-content-center">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/coronavirus-img.png"
+                class="covid-middle-card-img">
+            </div>
+            <div>
+                <h2 class="covid-middle-card-heading"> COVID-19 Test</h2>
+                <p class="covid-middle-card-paragraph">If you think uyou have been exposed to novel coronavirus (COVID-19)...more</p>
+            </div>
+        </div>
+        
+        <h3 class="symptoms-container"> Symptoms</h3>
+        
+        <div class="symptoms-card-container d-flex flex-row justify-content-center">
+            <div class="symptoms-bg-container1">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/cough-img.png" 
+                class="symptoms-card-img1">
+                <p class="symptoms-card-paragraph1">Dry Cough</p>
+            </div>
+            
+            <div class="symptoms-bg-container2">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/fever-img.png" 
+                class="symptoms-card-img2">
+                <p class="symptoms-card-paragraph2">High Fever</p>
+            </div>
+            
+            <div class="symptoms-bg-container3">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/headache-img.png" 
+                class="symptoms-card-img3">
+                <p class="symptoms-card-paragraph3">Headache</p>
+            </div>
+        </div>
+        
+        <h2 class="video-card-container">Videos</h2>
+        
+        <div class="end-card-container d-flex flex-row justify-content-center">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/doctor-img.png"
+                class="end-card-img">
+            </div>
+            <div>
+                <h3 class="end-card-heading"> To prevent the spread of ...</h3>
+                <p class="end-card-paragraph"> if you think you have been exposed to novel corona virus (COVID-19)</p>
+                <button class="btn btn-primary"> Watch Video</button>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
+
+
+CSS Source Code
+
+.covid-bg-container {
+    background-color: #ffffff;
+    height: 100vh;
+    padding: 15px;
+}
+
+.covid-card-container {
+    background-color: white;
+    padding: 8px;
+}
+
+.covid-card-heading{
+    font-family: "Times New Roman";
+    font-size: 27px;
+    padding: 5px;
+    color: #323f4b;
+}
+
+.learn-covid-card-button {
+    color: #ffffff;
+    background-color: #0967d2;
+    font-family: "Times New Roman";
+    font-size: 15px;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
+
+.covid-doc-img-card {
+    width: 160px;
+    height: 140px;
+}
+
+.covid-middle-card-container {
+    background-color: #0967d219;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    margin: 15px;
+    height: 130px;
+    
+}
+
+.covid-middle-card-img {
+    width: 85px;
+    height: 85px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.covid-middle-card-heading {
+    font-family: "Times New Roman";
+    font-size: 25px;
+    font-weight: 500;
+    color: #323f4b;
+}
+
+.covid-middle-card-paragraph {
+    font-family: "Times New Roman";
+    font-size: 18px;
+    color: #707070;
+    font-weight: 500;
+}
+
+.symptoms-container{
+    font-family: "Times New Roman";
+    font-size: 25px;
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.symptoms-card-container {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.symptoms-bg-container1 {
+    background-color: #3ebd93;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 95px;
+    width:87px;
+    padding: 10px;
+    margin: 15px;
+}
+.symptoms-card-img1{
+      height: 55px;
+    width: 55px;
+    
+}
+.symptoms-card-paragraph1{
+    font-family: "Times New Roman";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.symptoms-bg-container2 {
+    background-color: #e668a7;
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 95px;
+    width:87px;
+    padding: 10px;
+    margin: 15px;
+}
+.symptoms-card-img2{
+    height: 55px;
+    width: 55px;
+}
+.symptoms-card-paragraph2{
+    font-family: "Times New Roman";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.symptoms-bg-container3 {
+    background-color: #a368fc;
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 95px;
+    width:87px;
+    padding: 10px;
+    margin: 15px;
+}
+.symptoms-card-img3{
+      height: 55px;
+    width: 55px;
+}
+.symptoms-card-paragraph3{
+    font-family: "Times New Roman";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+}
+
+.video-card-container{
+    font-family: "Times New Roman";
+    font-size: 23px;
+    font-weight: 500;
+    padding: 0px;
+}
+
+.end-card-container {
+    background-color: #e12d3919;
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    margin: 15px;
+    height: 180px;
+}
+
+.end-card-img{
+    width: 80px;
+    height: 70px;
+}
+.end-card-heading {
+    font-family : "Times New Roman";
+    font-size: 24px;
+    color: #323f4b;
+}
+.end-card-paragraph {
+    font-family: "Times New Roman";
+    font-size: 19px;
+    color: #707070;
+}
