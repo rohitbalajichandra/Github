@@ -1,0 +1,217 @@
+KL Rahul Profile
+
+HTML Source Code
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="rahul-bg-container  ">
+
+        <div class="rahul-top-card-container d-flex flex-row justify-content-center ">
+            <div>
+                <h1 class="rahul-top-card-heading"> K.L. Rahul</h1>
+                <p class="rahul-top-card-paragraph">Kannur Lokesh Rahul ( born 18 April 1992),commonly known as KL Rahul, is an Indian International cricketer who plays...more</p>
+            </div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img1.png" class="rahul-top-card-img">
+        </div>
+
+        <h1 class="ipl-card"> IPL Records</h1>
+        <div class="rahul-center-card-container d-flex flex-row justify-content-center">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img2.png" class="rahul-center-card-img">
+            </div>
+            <div>
+                <h1 class="rahul-center-card-heading"> KXIP vs RCB</h1>
+                <p class="rahul-center-card-paragraph">He Scored an unbeaten 132 off just 69 balls against Royal Challengers Bangalore...more</p>
+            </div>
+        </div>
+
+        <h1 class="video-card-container"> Videos</h1>
+
+        <div class="rahul-end-card-container d-flex flex-row justify-content-center">
+            
+            <div class="rahul-end-img-card-container">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img3.png" 
+                class="rahul-end-card-img1">
+                <p class="rahul-end-card-paragraph1"> KL Rahul hits 337 for karnataka</p>
+            </div>
+
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img4.png" 
+                class="rahul-end-card-img2">
+                <p class="rahul-end-card-paragraph2">Incredible Innings by KL Rahul</p>
+            </div>
+
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img5.png" 
+                class="rahul-end-card-img3">
+                <p class="rahul-end-card-paragraph3">  Single-handed win by KL Rahul</p>
+            </div>
+            
+        </div>
+        <center>
+        <button class="button-container"> View more</button>
+        </center>
+    </div>
+</body>
+
+</html>
+
+CSS Source Code
+
+.rahul-bg-container {
+    background-color: lightblue;
+    height: 110vh;
+    width: 768px;
+
+}
+
+.rahul-top-card-container {
+    background-color: #fb4e71;
+    width: 768px;
+    height: 270px;
+    padding: 15px;
+}
+
+.rahul-top-card-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rahul-top-card-paragraph {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.rahul-top-card-img {
+    width: 220px;
+    height: 250px;
+}
+
+.rahul-center-card-container {
+    background-color: #ffffff;
+    width: 680px;
+    height: 190px;
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0px;
+    margin: 40px;
+
+}
+
+.ipl-card {
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+    color: #323f4b;
+    padding: 20px;
+    margin-block: 15px;
+}
+
+.rahul-center-card-img {
+    height: 190px;
+    width: 200px;
+}
+
+.rahul-center-card-heading {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    color: #323f4b;
+    padding: 10px;
+    margin: 10px;
+}
+
+.rahul-center-card-paragraph {
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #888888;
+
+    margin: 10px;
+}
+
+.video-card-container {
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+    color: #323f4b;
+    padding: 20px;
+    margin-block: 15px;
+}
+
+.rahul-end-card-container {
+    width: 700px;
+    height: 200px;
+    margin:30px;
+    padding: 0px;
+
+    border-radius: 10px;
+    
+}
+
+.rahul-end-card-img1 {
+    height: 140px;
+    width: 200px;
+}
+.rahul-end-card-paragraph1 {
+    font-family: "Roboto";
+    font-size: 23px;
+    color: #323f4b;
+    margin: 10px;
+    font-weight: bold;
+    padding: 8px;
+    width: 200px;
+}
+
+.rahul-end-card-img2 {
+    height: 140px;
+    width: 200px;
+}
+.rahul-end-card-paragraph2 {
+    font-family: "Roboto";
+    font-size: 23px;
+    color: #323f4b;
+    margin: 10px;
+    font-weight: bold;
+     padding: 8px;
+}
+
+.rahul-end-card-img3 {
+    height: 140px;
+    width: 200px;
+    
+}
+.rahul-end-card-paragraph3 {
+    font-family: "Roboto";
+    font-size: 23px;
+    color: #323f4b;
+    margin: 10px;
+    font-weight: bold;
+     padding: 8px;
+}
+
+.button-container {
+    background-color: #fb4e71;
+    border-radius: 10px;
+    border-color: #ffffff;
+    height: 60px;
+    width: 160px;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 0px;
+    margin: 10px;
+}
